@@ -1,0 +1,19 @@
+{
+  "name": "tooltipsjs",
+  "version": "1.0.0",
+  "description": "libreria para tooltips",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuvanFelipeDeveloper/TooltipsJS.git"
+  },
+  "author": "duvan salcedo, michael mauricio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuvanFelipeDeveloper/TooltipsJS/issues"
+  },
+  "homepage": "https://github.com/DuvanFelipeDeveloper/TooltipsJS#readme"
+}
