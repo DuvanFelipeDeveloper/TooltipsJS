@@ -1,19 +1,18 @@
 {
   "name": "tooltipsjs",
   "version": "1.0.0",
-  "description": "libreria para tooltips",
+  "description": "Libreria que brinda una solución ligera y fácil de usar para agregar tooltips interactivos a tus elementos HTML. Con una amplia gama de opciones de personalización y una integración perfecta con JavaScript y Node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DuvanFelipeDeveloper/TooltipsJS.git"
-  },
-  "author": "duvan salcedo, michael mauricio",
+  "author": "Duvan salcedo, Michael mauricio",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DuvanFelipeDeveloper/TooltipsJS/issues"
-  },
-  "homepage": "https://github.com/DuvanFelipeDeveloper/TooltipsJS#readme"
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.85.1",
+    "webpack-cli": "^5.1.3"
+  }
 }
