@@ -1,6 +1,6 @@
 {
-  "name": "tooltipsjs",
-  "version": "1.0.0",
+  "name": "infopopper",
+  "version": "1.0.1",
   "description": "Libreria que brinda una solución ligera y fácil de usar para agregar tooltips interactivos a tus elementos HTML. Con una amplia gama de opciones de personalización y una integración perfecta con JavaScript y Node.js",
   "main": "index.js",
   "scripts": {
