@@ -1,41 +1,37 @@
 /* styles.css */
 
-/* div {
+div, .tooltip {
   position: absolute;
+  padding: 8px;
+  font-size: 14px;
+  z-index: 9999;
+  transition: opacity 1s ease;
+  transform: translate(-50%, -50%);
+}
+
+div {
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}  */
+}
 
 .tooltip {
-    position: absolute;
-    background-color: #000;
-    color: #fff;
-    padding: 8px;
-    border-radius: 4px;
-    font-size: 14px;
-    z-index: 9999;
-  }
-
+  background-color: #000;
+  color: #fff;
+  border-radius: 4px;
+}
 
 .tooltip-right {
-  transition: opacity 1s ease;
-  transform: translate(40%,-50% );
+  transform: translate(40%, -50%);
 }
-  
+
 .tooltip-left {
-  transition: opacity 1s ease;
-  transform: translate(-140%,-50% );
-}
-  
-.tooltip-top{
-  transition: opacity 1s ease;
-  transform: translate(-50%,-150% );
-}
-  
-.tooltip-bottom{
-  transition: opacity 1s ease;
-  transform: translate(50%,150% );
+  transform: translate(-140%, -50%);
 }
 
+.tooltip-top {
+  transform: translate(-50%, -150%);
+}
 
+.tooltip-bottom {
+  transform: translate(50%, 150%);
+}

@@ -1,8 +1,7 @@
-// index.js
-const Tooltip = require('./src/tooltips');
+import Tooltip from './src/tooltips';
 
 const button = document.querySelector('.my-button');
-const tooltip = new Tooltip(button, 'Haz clic aqui','left');
+const tooltip = new Tooltip(button, 'Haz clic aquí', 'top');
 
 button.addEventListener('mouseenter', () => {
   tooltip.show();
